@@ -1,0 +1,22 @@
+#build-dashboard div {
+  padding: 2px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+#build-dashboard div h2 {
+  text-align: center;
+}
+
+.success {
+  background: lightgreen;
+}
+
+.running {
+  background: #FFF380;
+}
+
+.fail {
+  background: #C11B17;
+}

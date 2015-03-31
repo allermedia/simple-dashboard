@@ -1,0 +1,8 @@
+mongo:
+  image: mongo
+dashboard:
+  build: ./docker
+  ports:
+   - 3000:3000
+  links:
+    - mongo:mongo
