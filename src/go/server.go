@@ -203,7 +203,7 @@ func entryBuildGet(w http.ResponseWriter, r *http.Request) {
 		if i != size {
 			fmt.Fprintln(w, ",")
 		} else {
-			fmt.Println("")
+			fmt.Fprintln(w, "")
 		}
 	}
 	fmt.Fprintln(w, "]")
